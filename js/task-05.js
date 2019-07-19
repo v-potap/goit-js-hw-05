@@ -89,7 +89,7 @@ class Car {
    */
   drive(hours) {
     if (this._isOn) {
-      this._distance = hours * this._speed;
+      this._distance += hours * this._speed;
     }
   }
 }
